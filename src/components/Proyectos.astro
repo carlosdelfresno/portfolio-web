@@ -1,14 +1,26 @@
 ---
 import Proyecto from './Proyecto.astro'
-const proyectos = ['Proyecto1', 'Proyecto2']
+import proyectos from '../data/proyectos.json'
 ---
 
-<main class="flex flex-col gap-3 p-6 text-white">
-  <h2 class='text-4xl font-semibold text-center text-green-500'>&lt; Proyectos /&gt;</h2>
-
-  {
-    proyectos.map((proyecto) => {
-      return <Proyecto key={proyecto} nombre={proyecto} />
-    })
-  }
+<main class='flex flex-col gap-4 p-6 text-white'>
+  <h2 class='text-4xl font-semibold text-center text-green-500'>
+    &lt; Proyectos /&gt;
+  </h2>
+  <div class='grid md:grid-cols-2 sm:grid-cols-1 gap-4'>
+    {
+      proyectos.map((proyecto) => {
+        return (
+          <Proyecto
+            key={proyecto.id}
+            id={proyecto.id}
+            nombre={proyecto.nombre}
+            descripcion={proyecto.descripcion}
+            imagen={proyecto.imagen}
+            tecnologias={proyecto.tecnologias}
+          />
+        )
+      })
+    }
+  </div>
 </main>

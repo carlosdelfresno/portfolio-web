@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "nombre": "Worki Web",
+    "descripcion": "Aplicación web para la gestión de proyectos y tareas.",
+    "tecnologias": ["Angular", ".NET"],
+    "imagen": "/capturas/worki.png"
+  },
+  {
+    "id": 2,
+    "nombre": "Worki App",
+    "descripcion": "App para Android/iOS para la gestión de proyectos y tareas.",
+    "tecnologias": ["Xamarin", ".NET"],
+    "imagen": "/capturas/xamarin-logo.png"
+  },
+  {
+    "id": 3,
+    "nombre": "Contenido de palé por albarán",
+    "descripcion": "Proyecto a medida para cliente que permite obtener el contenido de un palé en base a su código",
+    "tecnologias": ["React", "Tailwind"],
+    "imagen": "/capturas/pale.png"
+  },
+  {
+    "id": 4,
+    "nombre": "Midulibros",
+    "descripcion": "Prueba técnica para gestionar lista de libros favoritas",
+    "tecnologias": ["React", "Tailwind"]
+  }
+]
