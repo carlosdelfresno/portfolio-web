@@ -3,11 +3,11 @@ import Proyecto from './Proyecto.astro'
 import proyectos from '../data/proyectos.json'
 ---
 
-<main class='flex flex-col gap-4 p-6 text-white'>
+<main class='p-6 text-white'>
   <h2 class='text-4xl font-semibold text-center text-green-500'>
     &lt; Proyectos /&gt;
   </h2>
-  <div class='grid md:grid-cols-2 sm:grid-cols-1 gap-4'>
+  <div class='grid md:grid-cols-2 sm:grid-cols-1 gap-4 mt-6'>
     {
       proyectos.map((proyecto) => {
         return (
