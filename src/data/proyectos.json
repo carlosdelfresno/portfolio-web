@@ -22,6 +22,14 @@
   },
   {
     "id": 4,
+    "nombre": "Personajes Juego de Tronos",
+    "descripcion": "Prueba de concepto usando Astro 3.0 y las View Transition API para transiciones entre páginas",
+    "tecnologias": ["Astro", "Tailwind"],
+    "imagen": "/capturas/got.png",
+    "url": "https://carlosdelfresno-gameofthrones.vercel.app/"
+  },
+  {
+    "id": 5,
     "nombre": "Midulibros",
     "descripcion": "Prueba técnica para gestionar lista de libros favoritas",
     "tecnologias": ["React", "Tailwind"]
