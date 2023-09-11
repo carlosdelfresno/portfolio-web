@@ -15,13 +15,6 @@
   },
   {
     "id": 3,
-    "nombre": "Contenido de palé por albarán",
-    "descripcion": "Proyecto a medida para cliente que permite obtener el contenido de un palé en base a su código",
-    "tecnologias": ["React", "Tailwind"],
-    "imagen": "/capturas/pale.png"
-  },
-  {
-    "id": 4,
     "nombre": "Personajes Juego de Tronos",
     "descripcion": "Prueba de concepto usando Astro 3.0 y las View Transition API para transiciones entre páginas",
     "tecnologias": ["Astro", "Tailwind"],
@@ -29,7 +22,22 @@
     "url": "https://carlosdelfresno-gameofthrones.vercel.app/"
   },
   {
+    "id": 4,
+    "nombre": "Clon básico de Dulcesol",
+    "descripcion": "Prueba de concepto usando Astro 3.0 y las View Transition API para transiciones entre páginas",
+    "tecnologias": ["Astro", "Tailwind"],
+    "imagen": "/capturas/dulcesol.png",
+    "url": "https://carlosdelfresno-dulcesol.vercel.app/"
+  },
+  {
     "id": 5,
+    "nombre": "Contenido de palé por albarán",
+    "descripcion": "Proyecto a medida para cliente que permite obtener el contenido de un palé en base a su código",
+    "tecnologias": ["React", "Tailwind"],
+    "imagen": "/capturas/pale.png"
+  },
+  {
+    "id": 6,
     "nombre": "Midulibros",
     "descripcion": "Prueba técnica para gestionar lista de libros favoritas",
     "tecnologias": ["React", "Tailwind"]
